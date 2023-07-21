@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Source Serif 4', serif;
+  font-size: 62.5%;
+
+  -webkit-font-smoothing: antialiased;
+
+  /* utilizado para mozilla */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-size: 1.6rem;
+  background: #121214;
+  padding: 7.2rem 10.4rem;
+  display: grid;
+  justify-content: center;
+}
+
+.card {
+
+  border-radius: 8px;
+  border: 2px solid #323238;
+  background: #202024;
+
+
+}
+
+.card img {
+  padding: 1.0rem;
+  
+  width: 100%;
+}
+
+.card p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 2.4rem 3.2rem 3.2rem;
+}
+
+.card h2 {
+  font-size: 3.6rem;
+  font-weight: 900;
+  padding: 2.4rem 3.2rem 0;
+}
+
+h1 {
+  color: #02799D;
+  font-size: 5.8rem;
+  line-height: 7.3rem;
+  
+}
+
+span {
+  font-size: 3.rem;
+}
+
+
+p,
+h2 {
+  color: #E1E1E6;
+}
+
+header p {
+
+  font-size: 3.2rem;
+  line-height: 4.0rem;
+  font-weight: 600;
+
+}
+
+main {
+
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  gap: 4.8rem 6.0rem;
+  overflow: hidden;
+  margin-top: 6.2rem;
+  
+
+}
